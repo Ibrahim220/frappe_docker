@@ -112,7 +112,7 @@ nano .env
 docker compose --env-file .env \
   -f compose.yaml \
   # ... your other overrides
-  config > ~/gitops/docker-compose.yml
+  c~/gitops/docker-compose.yml
 
 # 3. Pull new images
 docker compose --project-name <project-name> -f ~/gitops/docker-compose.yml pull
